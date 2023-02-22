@@ -13,8 +13,8 @@ public class ProductSteps {
                 .body(request)
                 .when()
                 .post("/products")
-                .then()
-                .log().all().extract();
+                .then().log().all()
+                .extract();
     }
 
     public static AddProductRequest 상품등록요청_생성() {
