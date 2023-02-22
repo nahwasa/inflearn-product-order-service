@@ -8,6 +8,7 @@ class InflearnProductOrderServiceApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
