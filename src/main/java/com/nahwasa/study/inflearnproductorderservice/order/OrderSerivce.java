@@ -3,6 +3,7 @@ package com.nahwasa.study.inflearnproductorderservice.order;
 import com.nahwasa.study.inflearnproductorderservice.product.Product;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -15,6 +16,7 @@ class OrderSerivce {
     }
 
     @PostMapping
+    @Transactional
     public ResponseEntity<Void> createOrder(@RequestBody final CreateOrderRequest request) {
         final Product product = orderPort.getProductById(request.productId());
 
