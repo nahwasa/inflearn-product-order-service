@@ -1,7 +1,9 @@
 package com.nahwasa.study.inflearnproductorderservice.payment;
 
 import com.nahwasa.study.inflearnproductorderservice.order.Order;
+import org.springframework.stereotype.Component;
 
+@Component
 class PaymentService {
     private final PaymentPort paymentPort;
 

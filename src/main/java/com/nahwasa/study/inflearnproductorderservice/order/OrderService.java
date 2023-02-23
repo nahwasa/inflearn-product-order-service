@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/orders")
-class OrderSerivce {
+public
+class OrderService {
     private final OrderPort orderPort;
 
-    OrderSerivce(final OrderPort orderPort) {
+    OrderService(final OrderPort orderPort) {
         this.orderPort = orderPort;
     }
 

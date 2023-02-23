@@ -3,7 +3,9 @@ package com.nahwasa.study.inflearnproductorderservice.payment;
 import com.nahwasa.study.inflearnproductorderservice.order.Order;
 import com.nahwasa.study.inflearnproductorderservice.product.DiscountPolicy;
 import com.nahwasa.study.inflearnproductorderservice.product.Product;
+import org.springframework.stereotype.Component;
 
+@Component
 class PaymentAdapter implements PaymentPort {
 
     private final PaymentGateway paymentGateway;

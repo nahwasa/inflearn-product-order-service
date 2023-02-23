@@ -1,8 +1,11 @@
 package com.nahwasa.study.inflearnproductorderservice.payment;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 class PaymentRepository {
 
     private Map<Long, Payment> persistence = new HashMap<>();
