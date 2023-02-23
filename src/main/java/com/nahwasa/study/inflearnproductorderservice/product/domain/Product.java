@@ -1,4 +1,4 @@
-package com.nahwasa.study.inflearnproductorderservice.product;
+package com.nahwasa.study.inflearnproductorderservice.product.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -34,5 +34,9 @@ public class Product {
         this.name = name;
         this.price = price;
         this.discountPolicy = discountPolicy;
+    }
+
+    public int getDiscountedPrice() {
+        return discountPolicy.applyDiscount(price);
     }
 }

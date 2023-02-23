@@ -1,11 +1,13 @@
 package com.nahwasa.study.inflearnproductorderservice.product;
 
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.GetProductResponse;
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.ProductService;
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.UpdateProductRequest;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
-import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
 class ProductServiceTest {

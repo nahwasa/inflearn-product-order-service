@@ -1,7 +1,9 @@
-package com.nahwasa.study.inflearnproductorderservice.order;
+package com.nahwasa.study.inflearnproductorderservice.order.adapter;
 
-import com.nahwasa.study.inflearnproductorderservice.product.Product;
-import com.nahwasa.study.inflearnproductorderservice.product.ProductRepository;
+import com.nahwasa.study.inflearnproductorderservice.order.domain.Order;
+import com.nahwasa.study.inflearnproductorderservice.order.application.port.OrderPort;
+import com.nahwasa.study.inflearnproductorderservice.product.domain.Product;
+import com.nahwasa.study.inflearnproductorderservice.product.adapter.ProductRepository;
 import org.springframework.stereotype.Component;
 
 @Component

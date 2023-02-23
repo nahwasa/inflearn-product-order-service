@@ -1,21 +1,18 @@
 package com.nahwasa.study.inflearnproductorderservice.order;
 
 import com.nahwasa.study.inflearnproductorderservice.ApiTest;
-import com.nahwasa.study.inflearnproductorderservice.product.ProductService;
+import com.nahwasa.study.inflearnproductorderservice.order.application.service.OrderService;
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.ProductService;
 import com.nahwasa.study.inflearnproductorderservice.product.ProductSteps;
-import io.restassured.RestAssured;
-import io.restassured.response.ExtractableResponse;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class OrderApiTest extends ApiTest {
 
-    @Autowired private OrderSerivce orderService;
+    @Autowired private OrderService orderService;
     @Autowired private ProductService productService;
 
     @Test
