@@ -1,7 +1,9 @@
 package com.nahwasa.study.inflearnproductorderservice.order;
 
 import com.nahwasa.study.inflearnproductorderservice.product.Product;
+import org.springframework.stereotype.Component;
 
+@Component
 class OrderSerivce {
     private final OrderPort orderPort;
 
