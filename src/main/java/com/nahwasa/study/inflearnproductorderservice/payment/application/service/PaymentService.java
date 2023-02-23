@@ -1,8 +1,9 @@
-package com.nahwasa.study.inflearnproductorderservice.payment;
+package com.nahwasa.study.inflearnproductorderservice.payment.application.service;
 
-import com.nahwasa.study.inflearnproductorderservice.order.Order;
+import com.nahwasa.study.inflearnproductorderservice.order.domain.Order;
+import com.nahwasa.study.inflearnproductorderservice.payment.application.port.PaymentPort;
+import com.nahwasa.study.inflearnproductorderservice.payment.domain.Payment;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

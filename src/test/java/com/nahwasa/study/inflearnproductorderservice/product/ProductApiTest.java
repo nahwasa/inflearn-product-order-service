@@ -1,13 +1,13 @@
 package com.nahwasa.study.inflearnproductorderservice.product;
 
 import com.nahwasa.study.inflearnproductorderservice.ApiTest;
-import io.restassured.RestAssured;
+import com.nahwasa.study.inflearnproductorderservice.product.adapter.ProductRepository;
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.ProductService;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

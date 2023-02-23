@@ -1,4 +1,4 @@
-package com.nahwasa.study.inflearnproductorderservice.product;
+package com.nahwasa.study.inflearnproductorderservice.product.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

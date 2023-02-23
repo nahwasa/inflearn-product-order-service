@@ -1,5 +1,8 @@
 package com.nahwasa.study.inflearnproductorderservice.product;
 
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.AddProductRequest;
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.UpdateProductRequest;
+import com.nahwasa.study.inflearnproductorderservice.product.domain.DiscountPolicy;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;

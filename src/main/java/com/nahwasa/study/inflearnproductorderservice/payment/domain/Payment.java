@@ -1,6 +1,6 @@
-package com.nahwasa.study.inflearnproductorderservice.payment;
+package com.nahwasa.study.inflearnproductorderservice.payment.domain;
 
-import com.nahwasa.study.inflearnproductorderservice.order.Order;
+import com.nahwasa.study.inflearnproductorderservice.order.domain.Order;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -10,6 +10,7 @@ import org.springframework.util.Assert;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+public
 class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

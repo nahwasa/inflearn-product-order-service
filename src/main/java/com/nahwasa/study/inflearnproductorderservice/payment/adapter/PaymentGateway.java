@@ -1,4 +1,4 @@
-package com.nahwasa.study.inflearnproductorderservice.payment;
+package com.nahwasa.study.inflearnproductorderservice.payment.adapter;
 
 interface PaymentGateway {
 

@@ -1,6 +1,8 @@
-package com.nahwasa.study.inflearnproductorderservice.order;
+package com.nahwasa.study.inflearnproductorderservice.order.application.service;
 
-import com.nahwasa.study.inflearnproductorderservice.product.Product;
+import com.nahwasa.study.inflearnproductorderservice.order.domain.Order;
+import com.nahwasa.study.inflearnproductorderservice.order.application.port.OrderPort;
+import com.nahwasa.study.inflearnproductorderservice.product.domain.Product;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;

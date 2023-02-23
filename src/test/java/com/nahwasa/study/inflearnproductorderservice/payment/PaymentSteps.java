@@ -1,5 +1,6 @@
 package com.nahwasa.study.inflearnproductorderservice.payment;
 
+import com.nahwasa.study.inflearnproductorderservice.payment.application.service.PaymentRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;

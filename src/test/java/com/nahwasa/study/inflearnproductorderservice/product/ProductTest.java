@@ -1,10 +1,9 @@
 package com.nahwasa.study.inflearnproductorderservice.product;
 
+import com.nahwasa.study.inflearnproductorderservice.product.domain.DiscountPolicy;
+import com.nahwasa.study.inflearnproductorderservice.product.domain.Product;
 import org.assertj.core.api.Assertions;
-import org.hibernate.query.sqm.tree.domain.AbstractSqmJoin;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ProductTest {
 

@@ -1,6 +1,6 @@
-package com.nahwasa.study.inflearnproductorderservice.order;
+package com.nahwasa.study.inflearnproductorderservice.order.domain;
 
-import com.nahwasa.study.inflearnproductorderservice.product.Product;
+import com.nahwasa.study.inflearnproductorderservice.product.domain.Product;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;

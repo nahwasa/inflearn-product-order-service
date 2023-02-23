@@ -1,7 +1,8 @@
 package com.nahwasa.study.inflearnproductorderservice.order;
 
 import com.nahwasa.study.inflearnproductorderservice.ApiTest;
-import com.nahwasa.study.inflearnproductorderservice.product.ProductService;
+import com.nahwasa.study.inflearnproductorderservice.order.application.service.OrderService;
+import com.nahwasa.study.inflearnproductorderservice.product.application.service.ProductService;
 import com.nahwasa.study.inflearnproductorderservice.product.ProductSteps;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

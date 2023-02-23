@@ -1,4 +1,4 @@
-package com.nahwasa.study.inflearnproductorderservice.payment;
+package com.nahwasa.study.inflearnproductorderservice.payment.adapter;
 
 import org.springframework.stereotype.Component;
 

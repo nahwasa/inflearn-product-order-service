@@ -1,11 +1,10 @@
 package com.nahwasa.study.inflearnproductorderservice.order;
 
-import com.nahwasa.study.inflearnproductorderservice.product.DiscountPolicy;
-import com.nahwasa.study.inflearnproductorderservice.product.Product;
+import com.nahwasa.study.inflearnproductorderservice.order.domain.Order;
+import com.nahwasa.study.inflearnproductorderservice.product.domain.DiscountPolicy;
+import com.nahwasa.study.inflearnproductorderservice.product.domain.Product;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class OrderTest {
 
