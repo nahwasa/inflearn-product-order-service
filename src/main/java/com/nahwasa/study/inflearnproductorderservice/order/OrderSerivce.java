@@ -1,9 +1,12 @@
 package com.nahwasa.study.inflearnproductorderservice.order;
 
 import com.nahwasa.study.inflearnproductorderservice.product.Product;
-import org.springframework.stereotype.Component;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
-@Component
+@RestController
+@RequestMapping("/orders")
 class OrderSerivce {
     private final OrderPort orderPort;
 
@@ -11,11 +14,13 @@ class OrderSerivce {
         this.orderPort = orderPort;
     }
 
-    public void createOrder(final CreateOrderRequest request) {
+    @PostMapping
+    public ResponseEntity<Void> createOrder(@RequestBody final CreateOrderRequest request) {
         final Product product = orderPort.getProductById(request.productId());
 
         final Order order = new Order(product, request.quantity());
 
         orderPort.save(order);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 }
